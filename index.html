@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot Card Reader.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <h1><strong><u>Tarot Card Reader.</u></strong></h1>
+                        <p>If you are here you will know the future and fortune with my tarot cards.</p>
+                        <p>Know about the thrills and upcoming adventures you are going to address through the knowledge of my magical cards.</p><br><br>
+                        <div class="Contact-details">
+                            <strong>Contact number</strong> - <u>9829161332</u><br>
+                            DM or call me for further details.
+                        </div>
+                    </div>
+                    <img src="Mummy1.jpg">
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
